@@ -26,5 +26,11 @@ public class Concate_The_same_Array_1929 {
 
 
         return newArray;
+
+//        or (Easy Method)
+//         for(int i=0;i<nums.length;i++){
+//            newArray[i]=newArray[i+nums.length]=nums[i];
+//        }
+//
     }
 }
