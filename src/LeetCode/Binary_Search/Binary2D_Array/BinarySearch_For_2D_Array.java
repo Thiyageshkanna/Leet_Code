@@ -6,8 +6,8 @@ public class BinarySearch_For_2D_Array {
     public static void main(String[] args) {
         int[][] nums={
                 {10, 20, 30, 40},
-                {15, 25, 25, 25},
-                {28, 29, 27, 49},
+                {15, 25, 35, 45},
+                {28, 29, 37, 49},
                 {33, 34, 38, 50}
         };
         int target=38;
