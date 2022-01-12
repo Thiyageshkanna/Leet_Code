@@ -8,7 +8,7 @@ public class Minimum_Size_SubArray_Sum_209 {
         System.out.println(minSubArrayLen(target,nums));
     }
     static int minSubArrayLen(int target, int[] nums) {
-
+        //always try to gor for two pinter when sub array is asked
         int left=0;
         int sum=0;
         int ans=Integer.MAX_VALUE;
