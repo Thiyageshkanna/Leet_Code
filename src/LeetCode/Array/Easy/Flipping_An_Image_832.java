@@ -26,6 +26,7 @@ public class Flipping_An_Image_832 {
                 end--;
             }
         }
+
         //Inverting the image
         for(int i=0;i<image.length;i++){
             for(int j=0;j<image.length;j++){
