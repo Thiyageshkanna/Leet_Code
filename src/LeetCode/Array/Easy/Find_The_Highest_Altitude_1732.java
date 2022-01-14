@@ -12,6 +12,7 @@ public class Find_The_Highest_Altitude_1732 {
         for(int i=0;i<gain.length;i++){
             sum+=gain[i];
             if(sum>=0){
+                //Finding maximum altitude
                 ans=Math.max(ans,sum);
             }
         }
