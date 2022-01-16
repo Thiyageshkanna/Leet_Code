@@ -2,6 +2,7 @@ package LeetCode.Array.Easy;
 //https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
 public class Cells_With_Odd_Values_In_An_Matrix_1252 {
     public static void main(String[] args) {
+
         int m=2,n=3;
         int[][] indices={
                 {0,1},
@@ -10,6 +11,7 @@ public class Cells_With_Odd_Values_In_An_Matrix_1252 {
         int ans=oddCells(m,n,indices);
         System.out.println(ans);
     }
+
     static int oddCells(int m, int n, int[][] indices) {
         //Creating sepeate 1D Array For Rows And Columns
         int[] rows=new int[m];
