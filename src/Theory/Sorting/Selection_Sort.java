@@ -18,7 +18,7 @@ public class Selection_Sort {
             swap(nums,maximumIndex,end);
         }
     }
-    //Swapping values
+    //Swapping values with maximum value index and the last index
     private static void swap(int[] nums, int maximumIndex, int end) {
         int temp=nums[maximumIndex];
          nums[maximumIndex]=nums[end];
