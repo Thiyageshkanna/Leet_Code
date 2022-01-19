@@ -16,6 +16,7 @@ public class Transpose_Matrix_867 {
     static int[][] transpose(int[][] matrix) {
         int rows=matrix.length;
         int column=matrix[0].length;
+        //interchanging the rows and colums to columns and row
         int[][] ans=new int[column][rows];
 
         for (int i = 0; i < rows; i++) {
