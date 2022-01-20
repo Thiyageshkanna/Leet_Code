@@ -22,9 +22,12 @@ public class Add_To_Array_Form_Of_Integers_989 {
       LinkedList<Integer> ans=new LinkedList<>();
       while (length>=0 || k!=0){
           if(length>=0){
+              //Adding with last value
               k+=num[length];
               length--;
           }
+          //adding the last value with k at the first index. when the loop goes the before index goes to second and
+          // the newly index comes first
           ans.addFirst(k%10);
           k/=10;
       }
