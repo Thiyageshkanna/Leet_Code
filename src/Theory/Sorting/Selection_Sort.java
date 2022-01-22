@@ -27,7 +27,7 @@ public class Selection_Sort {
     //finding maximum Value index not maximum Value
     private static int maximumIndex(int[] nums,int start, int end) {
         int max=start;
-        for(int i=start;i<=end;i++){
+        for(int i=start+1;i<=end;i++){
             if(nums[max]<nums[i]){
                 max=i;
             }
