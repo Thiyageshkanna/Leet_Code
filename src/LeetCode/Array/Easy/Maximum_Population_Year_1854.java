@@ -1,6 +1,8 @@
 package LeetCode.Array.Easy;
 //https://leetcode.com/problems/maximum-population-year/
 
+import java.util.Arrays;
+
 //Explanation
 //https://leetcode.com/problems/maximum-population-year/discuss/1554972/JAVA-SOLUTION-EASY-and-EXPLAINED
 public class Maximum_Population_Year_1854 {
@@ -14,6 +16,7 @@ public class Maximum_Population_Year_1854 {
     static int maximumPopulation(int[][] logs) {
         int[] arr=new int[101];
         for(int[] log: logs){
+
             for(int i=log[0];i<log[1];i++){
                 arr[i-1950]++;
             }
