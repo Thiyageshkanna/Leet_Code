@@ -27,14 +27,12 @@ public class Determine_Whether_Matrix_Can_be_Obtained_by_Rotation_1886 {
 
     private static boolean same(int[][] mat, int[][] target) {
         boolean isSame=true;
-        if(mat.length ==target.length && mat[0].length==target[0].length){
             for(int i=0;i<mat.length;i++){
                 for (int j = 0; j < mat[0].length; j++) {
                     if(target[i][j]!=mat[i][j]){
                         return isSame=false;
                     }
                 }
-            }
         }
         return isSame;
     }
