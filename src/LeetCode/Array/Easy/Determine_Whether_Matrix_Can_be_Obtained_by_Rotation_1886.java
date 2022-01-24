@@ -42,7 +42,8 @@ public class Determine_Whether_Matrix_Can_be_Obtained_by_Rotation_1886 {
         int columns=mat[0].length;
         int[][] ans=new int[columns][rows];
         for(int i=0;i<rows;i++){
-            for (int j = 0; j < columns ; j++) {
+            for (int j = 0; j < columns ; j++)
+            {
                 ans[j][rows-i-1]=mat[i][j];
             }
         }
