@@ -1,5 +1,5 @@
 package LeetCode.Array.Easy;
-
+//https://leetcode.com/problems/missing-number/
 public class Missing_Number_268 {
     public static void main(String[] args) {
         int[] nums={3,0,1};
