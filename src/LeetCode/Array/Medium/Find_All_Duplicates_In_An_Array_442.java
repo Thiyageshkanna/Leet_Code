@@ -31,7 +31,9 @@ public class Find_All_Duplicates_In_An_Array_442 {
                 al.add(nums[j]);
             }
         }
-        // This is only for when duplicate value has thrice or more than that. to remove the duplicate.
+        //When 3,3,3 are added , the respective index of 3 is not in the correct position for 2 times so in an
+        // arraylist
+        // it adds two time, to remove that.
         al=al.stream().distinct().collect(Collectors.toList());
         return al;
     }
