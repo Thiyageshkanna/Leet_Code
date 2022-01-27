@@ -18,6 +18,7 @@ public class Find_The_Duplicate_Number_287 {
                 i++;
             }
         }
+        System.out.println(Arrays.toString(nums));
         int answer=-1;
         for (int j = 0; j < nums.length; j++) {
             if(j+1!=nums[j]){
