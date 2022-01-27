@@ -1,4 +1,7 @@
 package LeetCode.Array.Medium;
+
+//https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +31,7 @@ public class Find_All_Duplicates_In_An_Array_442 {
                 al.add(nums[j]);
             }
         }
-
+        // This is only for when duplicate value has thrice or more than that. to remove the duplicate.
         al=al.stream().distinct().collect(Collectors.toList());
         return al;
     }
