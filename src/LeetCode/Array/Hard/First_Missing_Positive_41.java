@@ -26,7 +26,7 @@ public class First_Missing_Positive_41 {
                 return j+1;
             }
         }
-        return 0;
+        return nums.length+1;
     }
 
     private static void swap(int[] nums, int i, int check) {
