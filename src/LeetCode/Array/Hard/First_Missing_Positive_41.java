@@ -5,13 +5,14 @@ import java.util.Arrays;
 //https://leetcode.com/problems/first-missing-positive/
 public class First_Missing_Positive_41 {
     public static void main(String[] args) {
-        int[] nums={3,4,-1,1};
+        int[] nums={-1};
         System.out.println(firstMissingPositive(nums));
     }
     static int firstMissingPositive(int[] nums) {
         int i=0;
            while (i<nums.length){
                int check=nums[i]-1;
+               //here comes the main part ignore negative numbers and the numbers where index are greater than the nums.length
                if(nums[i]>0 && nums[i]< nums.length && nums[i]!=nums[check]){
                    swap(nums,i,check);
                }
@@ -25,7 +26,7 @@ public class First_Missing_Positive_41 {
                 return j+1;
             }
         }
-        return nums.length+1;
+        return 0;
     }
 
     private static void swap(int[] nums, int i, int check) {
