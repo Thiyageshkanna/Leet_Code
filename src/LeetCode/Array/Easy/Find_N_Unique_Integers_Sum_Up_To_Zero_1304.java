@@ -2,6 +2,7 @@ package LeetCode.Array.Easy;
 //https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/
 import java.util.Arrays;
 
+
 public class Find_N_Unique_Integers_Sum_Up_To_Zero_1304 {
     public static void main(String[] args) {
         int number=5;
