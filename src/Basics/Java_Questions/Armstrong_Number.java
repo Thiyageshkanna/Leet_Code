@@ -1,4 +1,4 @@
-package Basics;
+package Basics.Java_Questions;
 //Armstrong number
 import java.util.Scanner;
 
