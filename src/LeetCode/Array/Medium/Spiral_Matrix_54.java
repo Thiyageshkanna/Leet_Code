@@ -51,7 +51,7 @@ public class Spiral_Matrix_54 {
             if(left>right || top>bottom){
                 break;
             }
-
+            // Matrix left, bottom to top
             for(int i=bottom;i>=top;i--){
                 al.add(matrix[i][left]);
             }
