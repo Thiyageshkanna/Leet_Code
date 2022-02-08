@@ -12,10 +12,10 @@ public class Spiral_Matrix_54 {
                 {7,8,9}
         };
         ArrayList<Integer> al=new ArrayList<>();
-        al= (ArrayList<Integer>) spiralOrder(matrix);
+        al=spiralOrder(matrix);
         System.out.println(al);
     }
-    static List<Integer> spiralOrder(int[][] matrix) {
+    static ArrayList<Integer> spiralOrder(int[][] matrix) {
         ArrayList<Integer> al=new ArrayList<>();
         if(matrix.length==0 || matrix[0].length==0){
             return al;
