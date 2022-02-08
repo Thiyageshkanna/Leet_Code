@@ -24,6 +24,8 @@ public class Spiral_Matrix_54 {
         int bottom=matrix.length-1;
         int left=0;
         int right=matrix[0].length-1;
+
+        //breaks only when one of the if condition is true
         while(true){
             //matrix top, left to right
             for(int i=left;i<=right;i++){
@@ -49,6 +51,7 @@ public class Spiral_Matrix_54 {
             if(left>right || top>bottom){
                 break;
             }
+
             for(int i=bottom;i>=top;i--){
                 al.add(matrix[i][left]);
             }
