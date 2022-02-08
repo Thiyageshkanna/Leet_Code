@@ -2,7 +2,6 @@ package LeetCode.Array.Medium;
 
 //https://leetcode.com/problems/spiral-matrix/
 import java.util.ArrayList;
-import java.util.List;
 
 public class Spiral_Matrix_54 {
     public static void main(String[] args) {
