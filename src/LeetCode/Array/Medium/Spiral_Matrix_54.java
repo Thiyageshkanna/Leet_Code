@@ -1,4 +1,5 @@
 package LeetCode.Array.Medium;
+
 //https://leetcode.com/problems/spiral-matrix/
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +24,6 @@ public class Spiral_Matrix_54 {
         int bottom=matrix.length-1;
         int left=0;
         int right=matrix[0].length-1;
-
         while(true){
             //matrix top, left to right
             for(int i=left;i<=right;i++){
