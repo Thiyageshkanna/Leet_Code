@@ -7,7 +7,6 @@ public class Spiral_Matrix_2_59 {
         int n=3;
         int[][] nums=generateMatrix(n);
         System.out.println(Arrays.deepToString(nums));
-
     }
     static int[][] generateMatrix(int n) {
         int[][] matrix=new int[n][n];
