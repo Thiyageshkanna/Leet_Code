@@ -1,7 +1,8 @@
 package LeetCode.Array.Medium;
 //https://leetcode.com/problems/set-matrix-zeroes/submissions/
 import java.util.Arrays;
-
+// This is a optimized approach but still it is not the best optimized approach
+//It creates extra spaces because of two one-d Array.So Search for Optimized Approach
 public class Set_Matrix_Zeroes_73 {
     public static void main(String[] args) {
         int[][] matrix={
