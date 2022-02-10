@@ -10,27 +10,24 @@ public class Set_Matrix_Zeroes_73 {
                 {1,0,1},
                 {1,1,1}
         };
-        setZeroes(matrix);
+        setZeroesOptimalSolution(matrix);
     }
 
     //This is a preferred optimal solution for this question
     static void setZeroesOptimalSolution(int[][] matrix){
-        if(matrix.length==0 || matrix[0].length==0){
-            System.out.println(-1);
-            return;
-        }
+
 
         boolean firstRow=false;
         boolean firstColumn=false;
 
         //checking for first Row
-        for (int i = 0; i < matrix.length; i++) {
+        for (int i = 0; i < matrix[0].length; i++) {
             if (matrix[0][i] == 0) {
                 firstRow = true;
             }
         }
         //checking for First Column
-        for (int i = 0; i < matrix[0].length; i++) {
+        for (int i = 0; i < matrix.length; i++) {
             if(matrix[i][0]==0){
                 firstColumn=true;
             }
@@ -45,6 +42,29 @@ public class Set_Matrix_Zeroes_73 {
                 }
             }
         }
+        //Now make that rows and columns as zero with reference to 1st row and 1st column expect first row and column
+        for (int i = 1; i < matrix.length; i++) {
+            for (int j = 1; j < matrix[0].length; j++) {
+                if(matrix[0][j]==0 || matrix[i][0]==0){
+                    matrix[i][j]=0;
+                }
+            }
+        }
+        //For 1st column if zero available make the column as zero with matrix.length not matrix[0].length
+
+        if (firstColumn){
+            for (int j = 0; j < matrix.length; j++) {
+                matrix[0][j]=0;
+            }
+        }
+        //For 1st column if zero available make the column as zero with matrix[0].length not matrix.length
+
+        if(firstRow){
+            for (int i = 0; i < matrix[0].length; i++) {
+                matrix[i][0]=0;
+            }
+        }
+        System.out.println(Arrays.deepToString(matrix));
 
     }
     // This is a optimized approach but still it is not the best optimized approach
