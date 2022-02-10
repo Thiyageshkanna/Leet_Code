@@ -24,12 +24,14 @@ public class Set_Matrix_Zeroes_73 {
         for (int i = 0; i < matrix[0].length; i++) {
             if (matrix[0][i] == 0) {
                 firstRow = true;
+                break;
             }
         }
         //checking for First Column
         for (int i = 0; i < matrix.length; i++) {
             if(matrix[i][0]==0){
                 firstColumn=true;
+                break;
             }
         }
         //its like making the 1st row and 1st column as creating two one-d array as reference to make that column or
