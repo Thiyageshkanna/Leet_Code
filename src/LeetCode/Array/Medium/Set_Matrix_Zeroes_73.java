@@ -2,8 +2,7 @@ package LeetCode.Array.Medium;
 import java.util.Arrays;
 //https://leetcode.com/problems/set-matrix-zeroes/submissions/
 
-// This is a optimized approach but still it is not the best optimized approach
-//It creates extra spaces because of two one-d Array.So Search for Optimized Approach
+
 public class Set_Matrix_Zeroes_73 {
     public static void main(String[] args) {
         int[][] matrix={
@@ -13,6 +12,43 @@ public class Set_Matrix_Zeroes_73 {
         };
         setZeroes(matrix);
     }
+
+    //This is a preferred optimal solution for this question
+    static void setZeroesOptimalSolution(int[][] matrix){
+        if(matrix.length==0 || matrix[0].length==0){
+            System.out.println(-1);
+            return;
+        }
+
+        boolean firstRow=false;
+        boolean firstColumn=false;
+
+        //checking for first Row
+        for (int i = 0; i < matrix.length; i++) {
+            if (matrix[0][i] == 0) {
+                firstRow = true;
+            }
+        }
+        //checking for First Column
+        for (int i = 0; i < matrix[0].length; i++) {
+            if(matrix[i][0]==0){
+                firstColumn=true;
+            }
+        }
+        //its like making the 1st row and 1st column as creating two one-d array as reference to make that column or
+        // row as 0
+        for (int i = 1; i < matrix.length; i++) {
+            for (int j = 1; j < matrix[0].length; j++) {
+                if(matrix[i][j]==0){
+                    matrix[i][0]=0;
+                    matrix[0][j]=0;
+                }
+            }
+        }
+
+    }
+    // This is a optimized approach but still it is not the best optimized approach
+//It creates extra spaces because of two one-d Array.So Search for Optimized Approach
     static void setZeroes(int[][] matrix) {
         int rowSize=matrix.length;
         int columnSize=matrix[0].length;
