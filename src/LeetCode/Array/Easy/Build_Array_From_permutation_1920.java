@@ -8,6 +8,7 @@ public class Build_Array_From_permutation_1920 {
         System.out.println(Arrays.toString(buildArray(nums)));
     }
 
+
     private static int[] buildArray(int[] nums) {
         int[] ans=new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
