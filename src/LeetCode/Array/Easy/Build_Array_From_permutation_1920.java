@@ -16,6 +16,7 @@ public class Build_Array_From_permutation_1920 {
         }
         return ans;
     }
+    //This is the Optimized Solution Space o(1)
     private static int[] buildArray2(int[] nums){
         int n = nums.length;
 
