@@ -56,19 +56,22 @@ public class Set_Matrix_Zeroes_73 {
 
         if (firstColumn){
             for (int j = 0; j < matrix.length; j++) {
-                matrix[0][j]=0;
+                matrix[j][0]=0;
             }
         }
         //For 1st column if zero available make the column as zero with matrix[0].length not matrix.length
 
         if(firstRow){
             for (int i = 0; i < matrix[0].length; i++) {
-                matrix[i][0]=0;
+                matrix[0][i]=0;
             }
         }
         System.out.println(Arrays.deepToString(matrix));
 
     }
+
+
+
     // This is a optimized approach but still it is not the best optimized approach
 //It creates extra spaces because of two one-d Array.So Search for Optimized Approach
     static void setZeroes(int[][] matrix) {
