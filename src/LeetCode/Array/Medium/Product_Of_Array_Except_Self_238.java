@@ -8,9 +8,7 @@ public class Product_Of_Array_Except_Self_238 {
         System.out.println(Arrays.toString(productExpectSelf1(nums)));
     }
 
-
-
-    //Optimal Approach
+    //Optimal Approach not the best
     static int[] productExceptSelf(int[] nums){
         int n= nums.length;
         int[] left=new int[n];
