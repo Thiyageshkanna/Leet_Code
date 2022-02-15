@@ -6,6 +6,7 @@ public class Jump_Game_55 {
         System.out.println(canJump(nums));
     }
     static boolean canJump(int[] nums) {
+        //This is greedy Solution
         int reached=0;
         boolean isReached=true;
         //We are checking for false, if it reached is less than i, return false
