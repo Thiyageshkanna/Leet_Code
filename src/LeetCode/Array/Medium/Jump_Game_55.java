@@ -6,6 +6,8 @@ public class Jump_Game_55 {
         System.out.println(canJump(nums));
     }
     static boolean canJump(int[] nums) {
+        //We can also solve dp,backtracking,greedy method
+
         //This is greedy Solution
         int reached=0;
         boolean isReached=true;
