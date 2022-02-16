@@ -13,9 +13,6 @@ public class Palindrome_Number_9 {
             reversed=(reversed*10)+(lastDigit);
             num/=10;
         }
-        if(x==reversed){
-            return true;
-        }
-      return false;
+        return x==reversed;
     }
 }
