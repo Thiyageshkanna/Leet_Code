@@ -4,8 +4,31 @@ import java.util.Arrays;
 
 public class Sort_Colors_75 {
     public static void main(String[] args) {
-        int[] nums={2,0,2,1,1,0};
+        int[] nums={1,2,0};
+        sortCycle(nums);
+        //cycleSortOrCountingSort(nums);
         //bubbleSortColors(nums);
+    }
+    //Runtime : 0ms optimized code
+    static void sortCycle(int[] nums){
+        int zero=0;
+        int second=nums.length-1;
+        int i=0;
+        while(i<=second){
+            if(nums[i]==0){
+                swap(nums,zero,i);
+                zero++;
+                i++;
+            }
+            else if(nums[i]==2){
+                swap(nums,second,i);
+                second--;
+            }
+            else{
+                i++;
+            }
+        }
+        System.out.println(Arrays.toString(nums));
     }
     //IG this is the most optimal approach for the question
 
