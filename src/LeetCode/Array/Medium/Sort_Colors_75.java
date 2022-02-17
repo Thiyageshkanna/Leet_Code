@@ -7,7 +7,7 @@ public class Sort_Colors_75 {
         int[] nums={2,0,2,1,1,0};
         sortColors(nums);
     }
-    //by using bubble sort method just a brute force approac
+    //by using bubble sort method just a brute force approach
     static void sortColors(int[] nums) {
         boolean isSorted=false;
         for (int i = 0; i < nums.length; i++) {
