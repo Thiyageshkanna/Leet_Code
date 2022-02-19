@@ -1,5 +1,6 @@
 package LeetCode.Array.Medium;
 //https://leetcode.com/problems/house-robber/
+
 public class House_Robber_198 {
     public static void main(String[] args) {
         int[] nums={1,2};
