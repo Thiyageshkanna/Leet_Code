@@ -2,6 +2,7 @@ package LeetCode.Binary_Search.Easy;
 //https://leetcode.com/problems/guess-number-higher-or-lower/
 public class Guess_Number_higher_Or_Lower_374 {
     public static void main(String[] args) {
+
         System.out.println("There are some inbuilt methods so we are just commenting the code");
 
         /*
