@@ -4,6 +4,7 @@ public class Star_Increasing_Decreasing {
     public static void main(String[] args) {
         int n=5;
         for (int row = 1; row < 2*n; row++) {
+            //Total Columns to be Printed
             int c;
             if(row>n){
                  c=2*n-row;
