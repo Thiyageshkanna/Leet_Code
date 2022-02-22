@@ -11,7 +11,7 @@ public class Star_Increasing_Decreasing {
             else{
                 c=row;
             }
-            for (int column = 0; column < c; column++) {
+            for (int column = 1; column <= c; column++) {
                 System.out.print("* ");
             }
             System.out.println();
