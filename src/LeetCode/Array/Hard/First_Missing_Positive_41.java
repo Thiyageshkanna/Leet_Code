@@ -1,11 +1,11 @@
 package LeetCode.Array.Hard;
 
 import java.util.Arrays;
-
+//Counting Sort
 //https://leetcode.com/problems/first-missing-positive/
 public class First_Missing_Positive_41 {
     public static void main(String[] args) {
-        int[] nums={7,8,9,11,12};
+        int[] nums={3,4,-1,1};
         System.out.println(firstMissingPositive(nums));
     }
     static int firstMissingPositive(int[] nums) {
@@ -20,7 +20,6 @@ public class First_Missing_Positive_41 {
                    i++;
                }
            }
-
         for (int j = 0; j <nums.length; j++) {
             if((j+1)!=nums[j]){
                 return j+1;
