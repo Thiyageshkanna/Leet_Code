@@ -8,7 +8,7 @@ package Basics;
 public class Binary_Search_Ceiling_And_Floor_Kunal {
     public static void main(String[] args) {
         int[] arr={2,3,5,12,13,15,18,27,29,33,36,44};
-        int target=36;
+        int target=44;
         int ans=findCeiling(arr,target);
         System.out.println(ans);
     }
@@ -16,11 +16,11 @@ public class Binary_Search_Ceiling_And_Floor_Kunal {
         int start=0;
         int end=arr.length-1;
         if(target>= arr[arr.length-1]){
-            System.out.println("The Greatest element is same or less than target");
+            System.out.println("The Target element is same or greater than the given array elements");
             return 0;
         }
         if(target<=arr[0]){
-            System.out.println("The smallest element is same or less than target");
+            System.out.println("The target element is same or smaller than the given array elements");
             return 0;
         }
         while(start<=end){
