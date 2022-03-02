@@ -35,7 +35,7 @@ public class Intersection_Of_Two_Arrays_349 {
     static boolean binarySearch(int[] nums1,int num){
         int start=0;
         int end= nums1.length-1;
-        while (start<end){
+        while (start<=end){
             int mid=start+(end-start)/2;
             if(nums1[mid]==num){
                 return true;
