@@ -1,5 +1,6 @@
 package LeetCode.Binary_Search.Easy;
 
+import java.sql.Time;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -7,11 +8,49 @@ import java.util.Set;
 
 public class Intersection_Of_Two_Arrays_349 {
     public static void main(String[] args) {
-        int[] nums1={1,2,2,1};
-        int[] nums2={2,2};
-        System.out.println(Arrays.toString(usingTwoPointers(nums1, nums2)));
+        int[] nums1={4,9,5};
+        int[] nums2={9,4,9,8,4};
+        System.out.println(Arrays.toString(usingBinarySearch(nums1, nums2)));
+    }
+    //Binary Search
+    //Time Complexity - 0(logn)
+    static int[] usingBinarySearch(int[] nums1,int[] nums2){
+        Set<Integer> set=new HashSet<>();
+        Arrays.sort(nums1);
+
+        for(int i=0;i<nums2.length;i++){
+            if(binarySearch(nums1,nums2[i])){
+                set.add(nums2[i]);
+            }
+        }
+
+        int[] ans=new int[set.size()];
+        int position=0;
+        for(Integer num:set){
+            ans[position]=num;
+            position++;
+        }
+        return ans;
+    }
+    static boolean binarySearch(int[] nums1,int num){
+        int start=0;
+        int end= nums1.length-1;
+        while (start<end){
+            int mid=start+(end-start)/2;
+            if(nums1[mid]==num){
+                return true;
+            }
+            else if(nums1[mid]>num){
+                end=mid-1;
+            }
+            else{
+                start=mid+1;
+            }
+        }
+        return false;
     }
     //Two Pointers
+    //Time Complexity has to be 0(nlogn) because one array is traversed fully another one is not traversed fully
     static int[] usingTwoPointers(int[] nums1,int[] nums2){
         Set<Integer> set=new HashSet<>();
         Arrays.sort(nums1);
