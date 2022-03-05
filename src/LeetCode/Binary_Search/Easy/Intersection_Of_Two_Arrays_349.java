@@ -13,7 +13,7 @@ public class Intersection_Of_Two_Arrays_349 {
         System.out.println(Arrays.toString(usingBinarySearch(nums1, nums2)));
     }
     //Binary Search
-    //Time Complexity - 0(logn)
+    //Time Complexity - 0(logn) no==> 0(N LogN)
     static int[] usingBinarySearch(int[] nums1,int[] nums2){
         Set<Integer> set=new HashSet<>();
         Arrays.sort(nums1);
