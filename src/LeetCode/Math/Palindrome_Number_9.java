@@ -5,6 +5,7 @@ public class Palindrome_Number_9 {
         int x=1211;
         System.out.println(isPalindrome(x));
     }
+
     static  boolean isPalindrome(int x) {
         int num=x;
         int reversed=0;
@@ -13,6 +14,7 @@ public class Palindrome_Number_9 {
             reversed=(reversed*10)+(lastDigit);
             num/=10;
         }
+
         return x==reversed;
     }
 }

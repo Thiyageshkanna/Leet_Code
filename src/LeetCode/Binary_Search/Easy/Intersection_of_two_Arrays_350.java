@@ -12,6 +12,7 @@ public class Intersection_of_two_Arrays_350 {
         System.out.println(Arrays.toString(ans));
     }
     //Two Pointers
+
     static int[] intersect(int[] nums1, int[] nums2) {
         int[] ans=new int[nums1.length * nums2.length];
         Arrays.sort(nums1);
