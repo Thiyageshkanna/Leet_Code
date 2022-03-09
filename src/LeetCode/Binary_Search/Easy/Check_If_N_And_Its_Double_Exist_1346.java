@@ -6,28 +6,24 @@ import java.util.Set;
 public class Check_If_N_And_Its_Double_Exist_1346 {
     public static void main(String[] args) {
 
-        int[] arr={10,2,5,3};
+        int[] arr={7,1,14,11};
         System.out.println("---------------");
-        System.out.println(checkIfExist2(arr));
+        System.out.println(checkIfExist(arr));
 
     }
-    /*static boolean checkIfExist(int[] arr) {
+    //HashSet => o(n)
+    static boolean checkIfExist(int[] arr) {
         Set<Integer> hs=new HashSet<>();
-        for (int i = 0; i < arr.length ; i++) {
-            hs.add(arr[i]);
-        }
+
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i]==0){
-                continue;
-            }
-            int multiplyBy2=arr[i]*2;
-            if(hs.contains(multiplyBy2)){
+            if(hs.contains(arr[i]*2) || (arr[i]%2==0 && hs.contains(arr[i]/2))){
                 return true;
             }
+            hs.add(arr[i]);
         }
         return false;
     }
-    */
+
 
     //Using Two for loop as two pointer o(n2)
     static boolean checkIfExist2(int[] arr){
