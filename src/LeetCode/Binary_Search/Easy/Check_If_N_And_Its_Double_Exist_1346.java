@@ -5,9 +5,11 @@ import java.util.Set;
 
 public class Check_If_N_And_Its_Double_Exist_1346 {
     public static void main(String[] args) {
+
         int[] arr={10,2,5,3};
         System.out.println("---------------");
         System.out.println(checkIfExist2(arr));
+
     }
     /*static boolean checkIfExist(int[] arr) {
         Set<Integer> hs=new HashSet<>();
