@@ -5,7 +5,7 @@ package LeetCode.Easy;
 
 public class Find_Peak_Element_162_852 {
     public static void main(String[] args) {
-        int[] nums={1,2,3,7,12};
+        int[] nums={1,2,3,1};
         System.out.println(peakElement(nums));
     }
     static int peakElement(int[] nums){
