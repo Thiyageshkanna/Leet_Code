@@ -5,6 +5,7 @@ public class Single_Element_In_A_Sorted_Array_540 {
         int[] nums={1,1,2,3,3,4,4,8,8};
         System.out.println(singleNonDuplicate(nums));
     }
+    //Binary Search with XOR Approach
     static int singleNonDuplicate(int[] nums){
         int start=0;
         int end=nums.length-2;
