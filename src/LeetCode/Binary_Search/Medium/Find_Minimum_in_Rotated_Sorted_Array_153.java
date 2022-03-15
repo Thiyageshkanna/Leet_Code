@@ -1,8 +1,8 @@
 package LeetCode.Binary_Search.Medium;
-
+//https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 public class Find_Minimum_in_Rotated_Sorted_Array_153 {
     public static void main(String[] args) {
-        int[] nums={3,1,2};
+        int[] nums={4,5,6,7,0,1,2};
         System.out.println(answer(nums));
 
     }
@@ -11,6 +11,7 @@ public class Find_Minimum_in_Rotated_Sorted_Array_153 {
         if(pivotPosition!=-1){
             return nums[pivotPosition+1];
         }
+        //Don't Have Pivot Element, So first is the minimum number becoz it is sorted
         else{
             return nums[0];
         }
@@ -30,7 +31,7 @@ public class Find_Minimum_in_Rotated_Sorted_Array_153 {
             else if(mid>start && nums[mid-1]>nums[mid]){
                 return mid-1;
             }
-
+            //Ignore elements which are smaller than start (which is smaller values)
             else if(nums[start]>nums[mid]){
                 end=mid-1;
             }
