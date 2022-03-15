@@ -1,11 +1,11 @@
-package LeetCode.Medium;
+package LeetCode.Binary_Search.Medium;
 // https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/
 public class Search_In_Sorted_Rotated_Array_With_Duplicate_81 {
     public static void main(String[] args) {
         System.out.println(finalAnswer());
     }
     static boolean finalAnswer(){
-        int[] nums={2,5,6,0,0,1,2};
+        int[] nums={1,0,1,1,1};
         int target=0;
         int ans=finalSearch(nums,target);
         boolean answer=false;
