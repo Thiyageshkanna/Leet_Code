@@ -2,14 +2,14 @@ package Theory.Recursion;
 
 public class Recursion {
     public static void main(String[] args) {
-        message();
+       message(1);
     }
-    static int count=0;
-    static void message(){
-        count++;
-        System.out.println("Thiyagesh Kanna");
-        while (count<=5){
-            message();
+    static int message(int num){
+        if(num==6) {
+            return 0;
         }
+        System.out.println(num);
+        return message(num+1);
+
     }
 }
