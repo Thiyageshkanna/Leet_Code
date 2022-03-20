@@ -16,7 +16,23 @@ public class Search_A_2D_Matrix_74 {
     private static boolean searchMatrix(int[][] matrix,int target){
         int n=matrix.length;
         int m=matrix[0].length;
-        int[] ans=new int[n*m];
+        int start=0;
+        int end=(n*m)-1;
+        while (start<=end){
+            //instead of mid in 1d array to find index value EG:01 or 11
+            //We have to divide and quotient of mid by column length to find index value in 2D Array
+            int mid=start+(end-start)/2;
+            if(matrix[mid/m][mid%m]==target){
+                return true;
+            }
+            else if(matrix[mid/m][mid%m] >target ){
+                end=mid-1;
+            }
+            else{
+                start=mid+1;
+            }
+        }
+        return false;
 
     }
 
