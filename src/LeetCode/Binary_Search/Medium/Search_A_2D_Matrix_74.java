@@ -8,7 +8,7 @@ public class Search_A_2D_Matrix_74 {
                 {10,11,16,20},
                 {23,30,34,60}
         };
-        int target=3;
+        int target=20;
         System.out.println(searchMatrix(matrix,target));
     }
 
