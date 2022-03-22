@@ -1,5 +1,6 @@
 package Theory.Recursion;
 
+
 public class print_N_to_1 {
     public static void main(String[] args) {
         int n=10;
@@ -12,4 +13,5 @@ public class print_N_to_1 {
         System.out.println(n);
         print(n-1);
     }
+
 }
