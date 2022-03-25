@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pascal_Triangle_118 {
+
     public static void main(String[] args) {
         int numRows=5;
         System.out.println(generate(numRows));
 
     }
+
     static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<List<Integer>>();
         ArrayList<Integer> row=new ArrayList<Integer>();
