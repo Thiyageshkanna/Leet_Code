@@ -8,6 +8,7 @@ public class pow_50 {
     static double myPow(double x, int n) {
             double ans = 1;
             for (int i = 1; i <= n; i++) {
+                //To Update ans value
                 ans=ans*x;
             }
             return ans;
