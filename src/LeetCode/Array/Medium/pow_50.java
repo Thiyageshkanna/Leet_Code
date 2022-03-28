@@ -1,5 +1,5 @@
 package LeetCode.Array.Medium;
-
+//link t.ly/bJo7
 public class pow_50 {
     public static void main(String[] args) {
         double num=2.00000;
