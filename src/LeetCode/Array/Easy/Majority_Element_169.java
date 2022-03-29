@@ -6,8 +6,10 @@ public class Majority_Element_169 {
         int[] nums={2,2,3,3,3,3,2};
         System.out.println(majorityElement(nums));
     }
+
+
     //brute force Approach
-    static int majorityElement(int[] nums) {
+    static int majorityElement1(int[] nums) {
         if(nums.length==1){
             return nums[0];
         }
