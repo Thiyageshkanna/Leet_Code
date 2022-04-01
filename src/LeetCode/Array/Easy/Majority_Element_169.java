@@ -77,6 +77,7 @@ public class Majority_Element_169 {
         }
         return -1;
     }
+    //Sorting Techniques
     static int majorityElement3(int[] nums){
         if(nums.length==1){
             return nums[0];
