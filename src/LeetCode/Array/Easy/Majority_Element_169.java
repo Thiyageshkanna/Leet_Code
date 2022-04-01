@@ -1,10 +1,12 @@
 package LeetCode.Array.Easy;
 
 
+import java.util.Arrays;
+
 public class Majority_Element_169 {
     public static void main(String[] args) {
         int[] nums={2,2,1,1,1,2,2};
-        System.out.println(majorityElement(nums));
+        System.out.println(majorityElement3(nums));
     }
     //Moore's Voting Algorithm
     //LeetCode Question
@@ -54,6 +56,7 @@ public class Majority_Element_169 {
         }
         return a[res];
     }
+
     //brute force Approach
     static int majorityElement1(int[] nums) {
         if(nums.length==1){
@@ -69,6 +72,25 @@ public class Majority_Element_169 {
                 }
             }
             if(count>(nums.length/2)){
+                return nums[i];
+            }
+        }
+        return -1;
+    }
+    static int majorityElement3(int[] nums){
+        if(nums.length==1){
+            return nums[0];
+        }
+        Arrays.sort(nums);
+        int count=1;
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i]==nums[i+1]){
+                count++;
+            }
+            else{
+                count=1;
+            }
+            if(count>(nums.length)/2){
                 return nums[i];
             }
         }
