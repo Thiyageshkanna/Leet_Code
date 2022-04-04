@@ -2,6 +2,7 @@ package LeetCode.Array.Easy;
 
 import java.util.Arrays;
 
+
 public class Remove_Element_27 {
     public static void main(String[] args) {
         int[] nums={0,1,2,2,3,0,4,2};
