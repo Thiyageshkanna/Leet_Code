@@ -17,6 +17,9 @@ public class contains_Duplicate_217 {
         }
         return false;
     }
+    static boolean containsDuplicate2(int[] nums){
+
+    }
     static boolean containsDuplicate1(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i+1; j <nums.length ; j++) {
