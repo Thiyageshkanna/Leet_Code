@@ -31,8 +31,9 @@ public class next_Permutation_31 {
                     swap(nums,infectedIndex-1,j);
                 }
             }
+            Arrays.sort(nums,infectedIndex,nums.length);
         }
-        Arrays.sort(nums,infectedIndex,nums.length);
+
         System.out.println(Arrays.toString(nums));
 
     }
