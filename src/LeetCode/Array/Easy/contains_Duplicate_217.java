@@ -1,5 +1,6 @@
 package LeetCode.Array.Easy;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -18,7 +19,13 @@ public class contains_Duplicate_217 {
         return false;
     }
     static boolean containsDuplicate2(int[] nums){
-
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length-1; i++) {
+            if(nums[i]==nums[i+1]){
+                return true;
+            }
+        }
+        return false;
     }
     static boolean containsDuplicate1(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
