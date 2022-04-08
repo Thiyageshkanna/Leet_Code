@@ -9,6 +9,7 @@ public class contains_Duplicate_217 {
         int[] nums={1,2,3,1};
         System.out.println(containsDuplicate(nums));
     }
+    //By using HashSet -->o(N)
     static boolean containsDuplicate(int[] nums){
         Set<Integer> al=new HashSet<>();
         for (int i: nums) {
@@ -18,6 +19,7 @@ public class contains_Duplicate_217 {
         }
         return false;
     }
+    //By using Sorting Method -->o(N * LogN)
     static boolean containsDuplicate2(int[] nums){
         Arrays.sort(nums);
         for (int i = 0; i < nums.length-1; i++) {
@@ -27,6 +29,7 @@ public class contains_Duplicate_217 {
         }
         return false;
     }
+    // By using Loops --> o(n*n)
     static boolean containsDuplicate1(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i+1; j <nums.length ; j++) {
