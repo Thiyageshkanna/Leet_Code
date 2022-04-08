@@ -7,7 +7,7 @@ public class Capacity_To_Ship_Packages_Within_D_Days_1011 {
         int days=3;
         System.out.println(shipWithinDays(weights,days));
     }
-
+    //Binary Search
     static int shipWithinDays(int[] weights, int days) {
         int start=0;
         int end=0;
@@ -31,6 +31,22 @@ public class Capacity_To_Ship_Packages_Within_D_Days_1011 {
         return ans;
     }
 
+    //Linear search
+    static int shipWithinDays1(int[] weights,int days){
+        int start=0;
+        int end=0;
+        for (int i = 0; i < weights.length; i++) {
+            start=Math.max(start,weights[i]);
+            end+=weights[i];
+        }
+        int ans=0;
+        for (int i = start; i <= end; i++) {
+            if(checkingWeightWithDays(weights,i,days)){
+                return ans=i;
+            }
+        }
+        return ans;
+    }
     private static boolean checkingWeightWithDays(int[] weights, int mid, int days) {
         int d=1;
         int sum=0;
