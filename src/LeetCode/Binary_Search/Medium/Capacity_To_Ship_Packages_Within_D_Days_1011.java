@@ -1,7 +1,7 @@
 package LeetCode.Binary_Search.Medium;
 //Question Link : t.ly/Omt4
 //t.ly/FNNA
-public class Capacity_To_Ship_Packages_Within_D_Days {
+public class Capacity_To_Ship_Packages_Within_D_Days_1011 {
     public static void main(String[] args) {
         int[] weights={3,2,2,4,1,4};
         int days=3;
