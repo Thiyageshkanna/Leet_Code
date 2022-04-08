@@ -18,7 +18,9 @@ public class Capacity_To_Ship_Packages_Within_D_Days {
         int ans=-1;
         while(start<=end){
             int mid=start+(end-start)/2;
+            //checking whether days and mid weights equals with qn
             if(checkingWeightWithDays(weights,mid,days)){
+                //if equals store the answer and search for best answer;
                 ans=mid;
                 end=mid-1;
             }
