@@ -7,6 +7,7 @@ public class Capacity_To_Ship_Packages_Within_D_Days {
         int days=3;
         System.out.println(shipWithinDays(weights,days));
     }
+
     static int shipWithinDays(int[] weights, int days) {
         int start=0;
         int end=0;
@@ -36,8 +37,8 @@ public class Capacity_To_Ship_Packages_Within_D_Days {
                 sum+=weights[i];
             }
             else{
-                sum=weights[i];
-                d++;
+                sum=weights[i];//reset
+                d++;//increase no. the day
             }
         }
 //       if(d==days){
