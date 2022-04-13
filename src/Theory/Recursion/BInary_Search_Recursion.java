@@ -15,6 +15,8 @@ public class BInary_Search_Recursion {
         if(nums[mid]==target){
             return mid;
         }
+        //We can't simply call that function without using return because it has to return something
+        //It has int as return so it has to return int if we just call that function It will end up in error
         else if(nums[mid]>target){
             return binarySearch(nums,target,start,mid-1);
         }
