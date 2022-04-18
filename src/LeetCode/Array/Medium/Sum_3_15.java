@@ -8,9 +8,10 @@ public class Sum_3_15 {
         int[] nums={-1,0,1,2,-1,-4};
         System.out.println(threeSum(nums));
     }
+    //
 
     //Brute Force Approach with time complexity of ==> O(n^3)
-    static  List<List<Integer>> threeSum(int[] nums) {
+    static  List<List<Integer>> threeSum1(int[] nums) {
         Arrays.sort(nums);
         //We Are using set of list not list of list because we need should not store duplicate triplets array
         Set<List<Integer>> result=new HashSet<>();
