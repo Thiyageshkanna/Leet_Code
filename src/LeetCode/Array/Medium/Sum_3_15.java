@@ -8,7 +8,8 @@ public class Sum_3_15 {
         int[] nums={-1,0,1,2,-1,-4};
         System.out.println(threeSum(nums));
     }
-    //Two Pointer Approach Iterative Approach
+    //Two Pointer Approach Iterative Approach ==> TC => O(n^2)
+    //Beacause we are sorting the Array
     static List<List<Integer>> threeSum(int[] nums){
         int n=nums.length;
         if(n<3){
