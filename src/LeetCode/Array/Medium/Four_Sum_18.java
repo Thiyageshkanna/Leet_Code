@@ -14,15 +14,18 @@ public class Four_Sum_18 {
         if(nums==null || nums.length==0){
             return al;
         }
+        int n=nums.length;
         Arrays.sort(nums);
-        for (int i = 0; i <nums.length ; i++) {
+        for (int i = 0; i <n ; i++) {
             int target_i=target-nums[i];
-            for (int j = i+1; j < nums.length ; j++) {
+            for (int j = i+1; j < n ; j++) {
                 int target_j=target_i-nums[j];
+
                 int front=j+1;
-                int end=nums.length-1;
+                int end=n-1;
+
                 while (front<end){
-                    int two_sum=nums[front]-nums[end];
+                    int two_sum=nums[front]+nums[end];
                     if(two_sum<target_j){
                         front++;
                     } else if (two_sum>target_j) {
@@ -42,9 +45,9 @@ public class Four_Sum_18 {
                         while (front < end && nums[end] == al2.get(3)) --end;
                     }
                 }
-                while(j + 1 < nums.length && nums[j + 1] == nums[j]) ++j;
+                while(j + 1 < n && nums[j + 1] == nums[j]) ++j;
             }
-            while (i + 1 < nums.length && nums[i + 1] == nums[i]) ++i;
+            while (i + 1 < n && nums[i + 1] == nums[i]) ++i;
         }
         return al;
     }
