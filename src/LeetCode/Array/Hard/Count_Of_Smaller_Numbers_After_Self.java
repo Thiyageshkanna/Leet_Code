@@ -5,6 +5,7 @@ package LeetCode.Array.Hard;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Count_Of_Smaller_Numbers_After_Self {
     public static void main(String[] args) {
         int[] nums={-1,-2};

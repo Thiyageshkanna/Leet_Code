@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DSA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Binary_Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Binary_Search_Ceiling_And_Floor_Kunal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Java_Questions/Armstrong_Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Java_Questions/Factorial_Of_A_number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Java_Questions/Remove_Duplicate_In_An_Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Java_Questions/Reverse_A_String.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Linear_Search_Kunal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Patterns/Diamond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Patterns/Number_Pattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Patterns/Number_Pattern_tough_Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Patterns/Star1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Patterns/Star_Increasing_Decreasing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Basics/Patterns/Star_Reverse_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/GeeksForGeeks/Find_Count_In_Rotated_Sorted_Array_Binary_Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/GeeksForGeeks/Find_Position_of_an_Element_In_An_Sorted_infinite_Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Add_To_Array_Form_Of_Integers_989.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Best_Time_To_Buy_And_Sell_Stock_121.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Build_Array_From_permutation_1920.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Cells_With_Odd_Values_In_An_Matrix_1252.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Check_If_the_Sentence_is_Pangram_1832.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Concate_The_same_Array_1929.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Create_Target_Array_In_Given_Order_1389.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Determine_Whether_Matrix_Can_be_Obtained_by_Rotation_1886.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Find_All_Numbers_Disappeared_In_An_Array_448.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Find_N_Unique_Integers_Sum_Up_To_Zero_1304.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Find_The_Highest_Altitude_1732.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Flipping_An_Image_832.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/How_Many_numbers_Are_smaller_Than_The_Current_Number_1365.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Kids_With_The_Greatest_number_Of_Candies_1431.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Lucky_Number_In_A_Matrix_1380.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Majority_Element_169.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Matrix_Diagonal_Sum_1572.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Maximum_Population_Year_1854.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Maximum_SubArray_53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Minimum_Cost_To_Move_Chips_To_Same_position_1217.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Missing_Number_268.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Pascal_Triangle_118.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Plus_One_66.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Remove_Duplicate_From_Sorted_Array_26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Remove_Element_27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Reshape_The_Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Running_Sum_Of_1D_Array_1480.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Set_MisMatch_645.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Shuffle_The_Array_1470.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Transpose_Matrix_867.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/Two_Sum_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Easy/contains_Duplicate_217.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Hard/Count_Of_Smaller_Numbers_After_Self.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Hard/First_Missing_Positive_41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Find_All_Duplicates_In_An_Array_442.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Find_The_Duplicate_Number_287.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Four_Sum_18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/House_Robber_198.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Jump_Game_55.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Majority_Element_229.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Product_Of_Array_Except_Self_238.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Rotate_Array_189.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Set_Matrix_Zeroes_73.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Sort_Colors_75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Spiral_Matrix_2_59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Spiral_Matrix_54.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/Sum_3_15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/next_Permutation_31.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Array/Medium/pow_50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Binary2D_Array/BinarySearch_For_2D_Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Binary2D_Array/Count_Negative_Numbers_In_a_Sorted_Matrix_1351.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Binary2D_Array/basics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Arranging_Chain_441.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Binary_Search_704.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Check_If_N_And_Its_Double_Exist_1346.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Fair_Candy_Swap_888.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/First_Bad_Version_278.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Guess_Number_higher_Or_Lower_374.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Intersection_Of_Two_Arrays_349.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Intersection_of_two_Arrays_350.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Kth_Missing_Positive_Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Search_Insert_Position_35.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Sqrt_69.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/Valid_Perfect_Square_367.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Easy/amazon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Capacity_To_Ship_Packages_Within_D_Days_1011.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Find_Minimum_in_Rotated_Sorted_Array_153.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Find_Right_Interval_436.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Minimum_Size_SubArray_Sum_209.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Reach_A_Number_754.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Search_A_2D_Matrix_74.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Search_In_Rotated_Sorted_Array_81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Search_In_Sorted_Rotated_Array_With_Duplicate_81.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Single_Element_In_A_Sorted_Array_540.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/Two_Sum_2_167.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Binary_Search/Medium/koko_Eating_Bananas_875.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Easy/Find_Numbers_with_Even_Number_of_Digits_1295.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Easy/Find_Peak_Element_162_852.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Easy/Find_Smallest_Letter_Greater_Than_Target_744.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Easy/Richest_Customer_Wealth_1672.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Hard/Find_In_Mountain_Array_1095.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Hard/Split_Array_Largest_Sum_410.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/LeetCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Math/Longest_Common_Prefix_14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Math/Palindrome_Number_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Math/Roman_To_Integer_13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Medium/Find_First_and_Last_Position_of_Element_in_Sorted_Array_34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/Medium/Search_In_Sorted_Rotated_Array_33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/out/production/LeetCode/LeetCode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/out/production/LeetCode/LeetCode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/out/production/LeetCode/LeetCode/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/out/production/LeetCode/LeetCode/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/LeetCode/out/production/LeetCode/LeetCode/LeetCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Revision/Binary_Search/Ceiling_And_floor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Revision/Binary_Search/Find_744.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Revision/Binary_Search/pivot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Revision/New/whatsapp_Qn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/BInary_Search_Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/Fibonacci_Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/PrintNames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/print_1_To_N.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Recursion/print_N_to_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Sorting/Bubble_Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Sorting/Cycle_Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Sorting/Insertion_Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Sorting/Selection_Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Sorting/insertion_bubble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/Theory/Stack/stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/Hard/Count_Of_Smaller_Numbers_After_Self.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/Hard/Count_Of_Smaller_Numbers_After_Self.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Binary_Search/Hard/Split_Array_Largest_Sum_410.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Binary_Search/Hard/Split_Array_Largest_Sum_410.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="28FNBMyJVA5zVQP8egnH3UrpkCU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
+      <module name="DSA" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="" />
+      <created>1650808241011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650808241011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
