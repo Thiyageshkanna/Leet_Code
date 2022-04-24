@@ -16,6 +16,7 @@ public class Split_Array_Largest_Sum_410 {
             start=Math.max(start,nums[i]);
             end+=nums[i];
         }
+
 //        When start and end are equal break loop
         while (start<end){
             int mid=start+(end-start)/2;
