@@ -15,7 +15,7 @@ public class Sum_3_15 {
         if(n<3){
             return new ArrayList<>();
         }
-        Arrays.sort(nums);
+//        Arrays.sort(nums);
         //We Are using set of list not list of list because we need should not store duplicate triplets array
         Set<List<Integer>> result=new HashSet<>();
         for (int i = 0; i < n-2; i++) {
