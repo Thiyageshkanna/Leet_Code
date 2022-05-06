@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Message" />
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="3sum">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/Medium/Sum_3_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/Medium/Sum_3_15.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651830635971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3sum">
+      <created>1651853109223</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651853109224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Message" />
+    <MESSAGE value="3sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="3sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
