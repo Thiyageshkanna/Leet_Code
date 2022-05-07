@@ -26,6 +26,7 @@ public class Four_Sum_18 {
 
                 while (front<end){
                     int two_sum=nums[front]+nums[end];
+                    //
                     if(two_sum<target_j){
                         front++;
                     } else if (two_sum>target_j) {
@@ -38,11 +39,13 @@ public class Four_Sum_18 {
                         al2.add(nums[front]);
                         al2.add(nums[end]);
                         al.add(al2);
+                        ++front;
+                        --end;
                         // Processing the duplicates of number 3
-                        while (front < end && nums[front] == al2.get(2)) front++;
+                        while (front < end && nums[front] == al2.get(2)) ++front;
 
                         // Processing the duplicates of number 4
-                        while (front < end && nums[end] == al2.get(3)) end--;
+                        while (front < end && nums[end] == al2.get(3)) --end;
                     }
                 }
                 while(j + 1 < n && nums[j + 1] == nums[j]) ++j;
