@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="3sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/Medium/Sum_3_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/Medium/Sum_3_15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Array/Medium/Four_Sum_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Array/Medium/Four_Sum_18.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -43,7 +43,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.src.LeetCode.Array.Medium.Sum_3_15">
+  <component name="RunManager" selected="Application.Four_Sum_18">
     <configuration name="Add_To_Array_Form_Of_Integers_989" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Array.Easy.Add_To_Array_Form_Of_Integers_989" />
       <module name="DSA" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basics.Binary_Search" />
+    <configuration name="Four_Sum_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LeetCode.Array.Medium.Four_Sum_18" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basics.*" />
+          <option name="PATTERN" value="src.LeetCode.Array.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Four_Sum_18" />
         <item itemvalue="Application.src.LeetCode.Array.Medium.Sum_3_15" />
         <item itemvalue="Application.Sum_3_15" />
         <item itemvalue="Application.Add_To_Array_Form_Of_Integers_989" />
         <item itemvalue="Application.whatsapp_Qn" />
-        <item itemvalue="Application.Binary_Search" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651853109224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3sum">
+      <created>1651853133905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651853133905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,5 +198,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
