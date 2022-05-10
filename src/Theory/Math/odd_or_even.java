@@ -1,4 +1,4 @@
-package Theory.Math;
+package src.Theory.Math;
 
 public class odd_or_even {
     public static void main(String[] args) {
