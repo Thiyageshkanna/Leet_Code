@@ -1,4 +1,4 @@
-package LeetCode.Binary_Search.Medium;
+package src.LeetCode.Binary_Search.Medium;
 
 public class Single_Element_In_A_Sorted_Array_540 {
     public static void main(String[] args) {
