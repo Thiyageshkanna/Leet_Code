@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Single_Element_In_A_Sorted_Array_540">
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/src/Theory/Math/Appears_Only_Once.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/src/Theory/Math/Appears_Only_Once.class" afterDir="false" />
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Only_Once">
+      <change afterPath="$PROJECT_DIR$/src/GeeksForGeeks/Apprears_Only_Once_With_Three_Occurs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +49,26 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Appears_Only_Once">
+  <component name="RunManager" selected="Application.Apprears_Only_Once_With_Three_Occurs">
     <configuration name="Appears_Only_Once" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Only_Once" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Theory.Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Apprears_Only_Once_With_Three_Occurs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.GeeksForGeeks.Apprears_Only_Once_With_Three_Occurs" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.GeeksForGeeks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,19 +95,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.LeetCode.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum_3_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Array.Medium.Sum_3_15" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.Array.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Apprears_Only_Once_With_Three_Occurs" />
         <item itemvalue="Application.Appears_Only_Once" />
         <item itemvalue="Application.Implement_strStr_28" />
         <item itemvalue="Application.Four_Sum_18" />
         <item itemvalue="Application.src.LeetCode.Array.Medium.Sum_3_15" />
-        <item itemvalue="Application.Sum_3_15" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +259,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652263225676</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Single_Element_In_A_Sorted_Array_540">
+      <created>1652536409696</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652536409697</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Appears_Only_Once">
+      <created>1652536446829</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652536446829</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,9 +294,9 @@
     <MESSAGE value="Implement_strStr_28" />
     <MESSAGE value="basics" />
     <MESSAGE value="odd_or_even" />
-    <MESSAGE value="Appears_Only_Once" />
     <MESSAGE value="Single_Element_In_A_Sorted_Array_540" />
-    <option name="LAST_COMMIT_MESSAGE" value="Single_Element_In_A_Sorted_Array_540" />
+    <MESSAGE value="Appears_Only_Once" />
+    <option name="LAST_COMMIT_MESSAGE" value="Appears_Only_Once" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
