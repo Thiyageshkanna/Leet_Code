@@ -16,6 +16,7 @@ public class Appears_Only_Once_With_Three_Occurs {
             //store if it has only one time ,remove if it has two times
             one=one ^ nums[i];
 
+            //Check for common between one and two
             common=one & two;
 
             //remove from one
