@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Only_Once">
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Single_Element_In_A_Sorted_Array_540">
       <change beforePath="$PROJECT_DIR$/out/production/DSA/src/Theory/Math/Appears_Only_Once.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/src/Theory/Math/Appears_Only_Once.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652262604006</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Appears_Only_Once">
+      <created>1652263212181</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652263212181</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Single_Element_In_A_Sorted_Array_540">
+      <created>1652263225676</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652263225676</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,7 +281,8 @@
     <MESSAGE value="basics" />
     <MESSAGE value="odd_or_even" />
     <MESSAGE value="Appears_Only_Once" />
-    <option name="LAST_COMMIT_MESSAGE" value="Appears_Only_Once" />
+    <MESSAGE value="Single_Element_In_A_Sorted_Array_540" />
+    <option name="LAST_COMMIT_MESSAGE" value="Single_Element_In_A_Sorted_Array_540" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
