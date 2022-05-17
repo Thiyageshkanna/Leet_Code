@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Only_Once_With_Three_Occurs">
-      <change afterPath="$PROJECT_DIR$/src/GeeksForGeeks/Appears_Only_Once_With_Three_Occurs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Theory/Math/Find_Ith_Bit_Of_A_Number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Apprears_Only_Once_With_Three_Occurs">
+  <component name="RunManager" selected="Application.Find_Ith_Bit_Of_A_Number">
     <configuration name="Appears_Only_Once" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Only_Once" />
       <module name="DSA" />
@@ -70,6 +70,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.GeeksForGeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Find_Ith_Bit_Of_A_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Find_Ith_Bit_Of_A_Number" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Theory.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.LeetCode.Array.Medium.Sum_3_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LeetCode.Array.Medium.Sum_3_15" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.LeetCode.Array.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Unnamed" type="Java Scratch" nameIsGenerated="true">
       <module name="DSA" />
       <shortenClasspath name="NONE" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find_Ith_Bit_Of_A_Number" />
         <item itemvalue="Application.Apprears_Only_Once_With_Three_Occurs" />
         <item itemvalue="Application.Appears_Only_Once" />
         <item itemvalue="Application.Implement_strStr_28" />
         <item itemvalue="Application.Four_Sum_18" />
-        <item itemvalue="Application.src.LeetCode.Array.Medium.Sum_3_15" />
       </list>
     </recent_temporary>
   </component>
