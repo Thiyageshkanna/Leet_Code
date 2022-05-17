@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Thrice_Or_Odd_Times">
-      <change afterPath="$PROJECT_DIR$/src/Theory/Math/Appears_Thrice_Or_Odd_Times.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Theory/Math/MagicNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Appears_Thrice_Or_Odd_Times">
-    <configuration name="Appears_Only_Once" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Only_Once" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.Theory.Math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MagicNumber">
     <configuration name="Appears_Thrice_Or_Odd_Times" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Thrice_Or_Odd_Times" />
       <module name="DSA" />
@@ -103,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.MagicNumber" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Theory.Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Set_The_Ith_Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Set_The_Ith_Bit" />
       <module name="DSA" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MagicNumber" />
         <item itemvalue="Application.Appears_Thrice_Or_Odd_Times" />
         <item itemvalue="Application.Set_The_Ith_Bit" />
         <item itemvalue="Application.Find_Ith_Bit_Of_A_Number" />
         <item itemvalue="Application.Apprears_Only_Once_With_Three_Occurs" />
-        <item itemvalue="Application.Appears_Only_Once" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652812843716</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Appears_Thrice_Or_Odd_Times">
+      <created>1652812856966</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652812856966</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
