@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Set_The_Ith_Bit">
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Thrice_Or_Odd_Times">
       <change afterPath="$PROJECT_DIR$/src/Theory/Math/Appears_Thrice_Or_Odd_Times.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -323,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652795628304</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Appears_Thrice_Or_Odd_Times">
+      <created>1652812843716</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652812843716</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,7 +356,8 @@
     <MESSAGE value="Appears_Only_Once_With_Three_Occurs" />
     <MESSAGE value="Find_Ith_Bit_Of_A_Number" />
     <MESSAGE value="Set_The_Ith_Bit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set_The_Ith_Bit" />
+    <MESSAGE value="Appears_Thrice_Or_Odd_Times" />
+    <option name="LAST_COMMIT_MESSAGE" value="Appears_Thrice_Or_Odd_Times" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
