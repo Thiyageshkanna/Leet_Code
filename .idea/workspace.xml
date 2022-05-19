@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Thrice_Or_Odd_Times">
-      <change afterPath="$PROJECT_DIR$/src/Theory/Math/MagicNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="MagicNumber" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -337,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652812856966</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="MagicNumber">
+      <created>1652813593191</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813593191</updated>
+    </task>
+    <task id="LOCAL-00029" summary="MagicNumber">
+      <created>1652813601965</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813601965</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +375,8 @@
     <MESSAGE value="Find_Ith_Bit_Of_A_Number" />
     <MESSAGE value="Set_The_Ith_Bit" />
     <MESSAGE value="Appears_Thrice_Or_Odd_Times" />
-    <option name="LAST_COMMIT_MESSAGE" value="Appears_Thrice_Or_Odd_Times" />
+    <MESSAGE value="MagicNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="MagicNumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
