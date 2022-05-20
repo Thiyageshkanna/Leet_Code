@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="MagicNumber">
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Power_Of_Two">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Math/Flipping_An_Image_832.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Power_Of_Two">
+  <component name="RunManager" selected="Application.Flipping_An_Image_832">
     <configuration name="Appears_Thrice_Or_Odd_Times" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Thrice_Or_Odd_Times" />
       <module name="DSA" />
@@ -63,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Find_Ith_Bit_Of_A_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Find_Ith_Bit_Of_A_Number" />
+    <configuration name="Flipping_An_Image_832" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.LeetCode.Math.Flipping_An_Image_832" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.Theory.Math.*" />
+          <option name="PATTERN" value="src.LeetCode.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Flipping_An_Image_832" />
         <item itemvalue="Application.Power_Of_Two" />
         <item itemvalue="Application.MagicNumber" />
         <item itemvalue="Application.Appears_Thrice_Or_Odd_Times" />
         <item itemvalue="Application.Set_The_Ith_Bit" />
-        <item itemvalue="Application.Find_Ith_Bit_Of_A_Number" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652938972524</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Power_Of_Two">
+      <created>1653039772237</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653039772237</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +393,8 @@
     <MESSAGE value="Set_The_Ith_Bit" />
     <MESSAGE value="Appears_Thrice_Or_Odd_Times" />
     <MESSAGE value="MagicNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="MagicNumber" />
+    <MESSAGE value="Power_Of_Two" />
+    <option name="LAST_COMMIT_MESSAGE" value="Power_Of_Two" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,6 +403,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCode/Array/Medium/Sum_3_15.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Theory/Math/Power_Of_Two.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
