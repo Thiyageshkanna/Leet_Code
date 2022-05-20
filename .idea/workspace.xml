@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="MagicNumber" />
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="MagicNumber">
+      <change afterPath="$PROJECT_DIR$/src/Theory/Math/Power_Of_Two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,26 +50,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.MagicNumber">
+  <component name="RunManager" selected="Application.Power_Of_Two">
     <configuration name="Appears_Thrice_Or_Odd_Times" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Thrice_Or_Odd_Times" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Theory.Math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Apprears_Only_Once_With_Three_Occurs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.GeeksForGeeks.Apprears_Only_Once_With_Three_Occurs" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.GeeksForGeeks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,6 +79,19 @@
     </configuration>
     <configuration name="MagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Theory.Math.MagicNumber" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Theory.Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Power_Of_Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Power_Of_Two" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Power_Of_Two" />
         <item itemvalue="Application.MagicNumber" />
         <item itemvalue="Application.Appears_Thrice_Or_Odd_Times" />
         <item itemvalue="Application.Set_The_Ith_Bit" />
         <item itemvalue="Application.Find_Ith_Bit_Of_A_Number" />
-        <item itemvalue="Application.Apprears_Only_Once_With_Three_Occurs" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652813601965</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="MagicNumber">
+      <created>1652938972524</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1652938972524</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,6 +395,11 @@
           <url>file://$PROJECT_DIR$/src/LeetCode/Array/Medium/Sum_3_15.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Theory/Math/Power_Of_Two.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

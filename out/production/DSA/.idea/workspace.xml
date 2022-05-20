@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Appears_Only_Once_With_Three_Occurs">
-      <change afterPath="$PROJECT_DIR$/src/GeeksForGeeks/Appears_Only_Once_With_Three_Occurs.java" afterDir="false" />
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="MagicNumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,26 +49,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Find_Ith_Bit_Of_A_Number">
-    <configuration name="Appears_Only_Once" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Only_Once" />
+  <component name="RunManager" selected="Application.Power_Of_Two">
+    <configuration name="Appears_Thrice_Or_Odd_Times" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Appears_Thrice_Or_Odd_Times" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.Theory.Math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Apprears_Only_Once_With_Three_Occurs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.GeeksForGeeks.Apprears_Only_Once_With_Three_Occurs" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.GeeksForGeeks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Four_Sum_18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LeetCode.Array.Medium.Four_Sum_18" />
+    <configuration name="MagicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.MagicNumber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.LeetCode.Array.Medium.*" />
+          <option name="PATTERN" value="src.Theory.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implement_strStr_28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.LeetCode.String.Implement_strStr_28" />
+    <configuration name="Power_Of_Two" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Power_Of_Two" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.LeetCode.String.*" />
+          <option name="PATTERN" value="src.Theory.Math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Set_The_Ith_Bit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Theory.Math.Set_The_Ith_Bit" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.Theory.Math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Power_Of_Two" />
+        <item itemvalue="Application.MagicNumber" />
+        <item itemvalue="Application.Appears_Thrice_Or_Odd_Times" />
+        <item itemvalue="Application.Set_The_Ith_Bit" />
         <item itemvalue="Application.Find_Ith_Bit_Of_A_Number" />
-        <item itemvalue="Application.Apprears_Only_Once_With_Three_Occurs" />
-        <item itemvalue="Application.Appears_Only_Once" />
-        <item itemvalue="Application.Implement_strStr_28" />
-        <item itemvalue="Application.Four_Sum_18" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +280,84 @@
       <option name="project" value="LOCAL" />
       <updated>1652537033685</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Appears_Only_Once_With_Three_Occurs">
+      <created>1652787896067</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652787896067</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Find_Ith_Bit_Of_A_Number">
+      <created>1652787912350</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652787912350</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Find_Ith_Bit_Of_A_Number">
+      <created>1652787919921</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652787919921</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Find_Ith_Bit_Of_A_Number">
+      <created>1652787929947</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652787929947</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Set_The_Ith_Bit">
+      <created>1652788922394</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1652788922394</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Set_The_Ith_Bit">
+      <created>1652795628304</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1652795628304</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Appears_Thrice_Or_Odd_Times">
+      <created>1652812843716</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1652812843716</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Appears_Thrice_Or_Odd_Times">
+      <created>1652812856966</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1652812856966</updated>
+    </task>
+    <task id="LOCAL-00028" summary="MagicNumber">
+      <created>1652813593191</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813593191</updated>
+    </task>
+    <task id="LOCAL-00029" summary="MagicNumber">
+      <created>1652813601965</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1652813601965</updated>
+    </task>
+    <task id="LOCAL-00030" summary="MagicNumber">
+      <created>1652938972524</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1652938972524</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,7 +381,11 @@
     <MESSAGE value="Single_Element_In_A_Sorted_Array_540" />
     <MESSAGE value="Appears_Only_Once" />
     <MESSAGE value="Appears_Only_Once_With_Three_Occurs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Appears_Only_Once_With_Three_Occurs" />
+    <MESSAGE value="Find_Ith_Bit_Of_A_Number" />
+    <MESSAGE value="Set_The_Ith_Bit" />
+    <MESSAGE value="Appears_Thrice_Or_Odd_Times" />
+    <MESSAGE value="MagicNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="MagicNumber" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
