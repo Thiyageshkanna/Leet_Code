@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Flipping_An_Image_832" />
+    <list default="true" id="47d87d8d-10dc-4468-8e30-40d02990a138" name="Changes" comment="Flipping_An_Image_832">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -376,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653047302008</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Flipping_An_Image_832">
+      <created>1653110605996</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653110605996</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
